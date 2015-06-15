@@ -9,5 +9,24 @@ video{
   font-family: "din-condensed-web",sans-serif;
   font-style: normal;
   font-weight: 400;
-  color:#000000;
+}
+
+/* unvisited link */
+a:link {
+    color: #000000;
+}
+
+/* visited link */
+a:visited {
+    color: #616161;
+}
+
+/* mouse over link */
+a:hover {
+    color: #b6b6b6;
+}
+
+/* selected link */
+a:active {
+    color: #000000;
 }
