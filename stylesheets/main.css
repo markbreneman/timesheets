@@ -1,5 +1,12 @@
-video{ width:100%;
+video{
+  width:100%;
 }
 
-.details {margin:0 auto; width:900px; display:block;
+.details {
+  margin:0 auto;
+  display:block;
+  float:right;
+  font-family: "din-condensed-web",sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
