@@ -6,7 +6,7 @@ Over the course of the last year (June 2014-June 2015), I have been recording my
 
 As a summary for my performance review evaluation, I spliced together all the video into a timelapse video available here
 
-[markbreneman.github.io/timesheets](markbreneman.github.io/timesheets)
+[markbreneman.github.io/timesheets](http://markbreneman.github.io/timesheets)
 
 and ran facial recognition on all the video, to build data files which would document my emotions, race, age and "beauty" for the year.  Lastly I also took stills from the video and aligned the detected faces into aggregate imagery of what it might mean to try and capture the timesheets experience in a more abstracted nature over time.
 
