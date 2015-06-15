@@ -1,0 +1,1 @@
+FloatDict size=8 { "indian": 137.24998, "indiancount": 222.0, "asian": 293.36993, "asiancount": 438.0, "white": 120.76003, "whitecount": 201.0, "black": 0.21, "blackcount": 1.0 }

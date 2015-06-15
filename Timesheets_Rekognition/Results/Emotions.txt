@@ -1,0 +1,1 @@
+FloatDict size=14 { "sad": 372.31984, "sadcount": 2007.0, "happy": 1134.81986, "happycount": 2657, "surprised": 33.8600007, "surprisedcount": 263.0, "calm": 413.50995, "calmcount": 1935.0, "disgust": 12.8499994, "disgustcount": 191.0, "confused": 245.889986, "confusedcount": 1599.0, "angry": 62.580023, "angrycount": 519.0 }
