@@ -10,8 +10,8 @@ As a summary for my performance review evaluation, I spliced together all the vi
 
 and ran facial recognition on all the video, to build data files which would document my emotions, race, age and "beauty" for the year.  Lastly I also took stills from the video and aligned the detected faces into aggregate imagery of what it might mean to try and capture the timesheets experience in a more abstracted nature over time.
 
-![First 200](/media/0-200.png "Images 0-200")
-![First 1200](/media/1200.png "Images 0-1200")
+![First 200](/media/1200.png "Images 0-200")
+![First 1200](/media/0-200.png "Images 0-1200")
 ![First 2400](/media/2400.png "Images 0-2400")
 
 They end up being quite scary;
