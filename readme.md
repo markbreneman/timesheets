@@ -6,7 +6,7 @@ Over the course of the last year (June 2014-June 2015), I have been recording my
 
 As a summary for my performance review evaluation, I spliced together all the video into a timelapse video available here
 
-markbreneman.github.io/timesheets
+[markbreneman.github.io/timesheets](markbreneman.github.io/timesheets)
 
 and ran facial recognition on all the video, to build data files which would document my emotions, race, age and "beauty" for the year.  Lastly I also took stills from the video and aligned the detected faces into aggregate imagery of what it might mean to try and capture the timesheets experience in a more abstracted nature over time.
 
@@ -28,7 +28,7 @@ I had the scripts setup to run and record anytime I visited the SmartWorks websi
 
 ###To do it yourself###
 
-The modified automator scripts are located in the recording scripts folder, and can be modified with automator to work on any website (change the lines - 'set targetDomain to "domaintoRecord"`)
+The modified automator scripts are located in the recording scripts folder, and can be modified with automator to work on any website (change the lines - 'set targetDomain to "domaintoRecord.com"`)
 
 and browser of your choice(change the lines - `tell application "application name"`).
 

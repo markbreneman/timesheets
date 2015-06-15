@@ -2,8 +2,8 @@ global targetDomain
 global folderName
 
 -- options
-set targetDomain to "dropcam.com"
-set folderName to (path to desktop as text) & "Dropcam"
+set targetDomain to "domaintoRecord.com"
+set folderName to (path to desktop as text) & "folderNameDesired"
 
 -- main code
 global recordingFile
@@ -30,7 +30,7 @@ on stopRecording()
 end stopRecording
 
 on checkSite()
-	tell application "Google Chrome"
+	tell application "application name"
 		repeat with win in windows
 			set curUrl to URL of active tab of win
 			if curUrl contains targetDomain then
