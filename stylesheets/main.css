@@ -2,7 +2,7 @@ video{
   width:100%;
 }
 
-.details {
+.details, :active {
   margin:0 auto;
   display:block;
   float:right;
