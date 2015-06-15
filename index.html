@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheets/main.css" />
+  <head>
+    <body>
+      <video id="video-player" src="https://dl.dropbox.com/s/mrac878srdsld39/TimesheetsFinalCut.mp4?dl=0" controls>
+        Your browser does not support the <code>video</code> element.
+      </video>
+      <div class="details"> <a href="https://github.com/markbreneman/timesheets">details</a></div>
+    </body>
+<script>
+    $(document).ready(function(){
+   		var video = $("#video-player");
+   		var windowObj = $(window);
+
+   		function onResizeWindow() {
+   			resizeVideo(video[0]);
+   		}
+
+   		function onLoadMetaData(e) {
+   			resizeVideo(e.target);
+   		}
+
+   		function resizeVideo(videoObject) {
+   			var percentWidth = videoObject.clientWidth * 100 / videoObject.videoWidth;
+   			var videoHeight = videoObject.videoHeight * percentWidth / 100;
+   			video.height(videoHeight);
+   		}
+
+   		video.on("loadedmetadata", onLoadMetaData);
+   		windowObj.resize(onResizeWindow);
+   	}
+   );
+</script>
+
+</html>
